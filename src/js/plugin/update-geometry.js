@@ -30,7 +30,7 @@ function updateCss(element, i) {
   }
   dom.css(i.scrollbarXRail, xRailOffset);
 
-  var yRailOffset = {top: element.scrollTop, height: i.railYHeight};
+  var yRailOffset = {top: i.settings.yRailOffset.top || element.scrollTop, height: i.settings.yRailOffset.height || i.railYHeight};
   if (i.isScrollbarYUsingRight) {
     if (i.isRtl) {
       yRailOffset.right = i.contentWidth - (i.negativeScrollAdjustment + element.scrollLeft) - i.scrollbarYRight - i.scrollbarYOuterWidth;
