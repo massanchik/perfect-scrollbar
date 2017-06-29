@@ -1,5 +1,14 @@
 This repository supports customizable yRailOffset top/height parameters.
 
+Usage:
+```
+$('.selector').perfectScrollbar({
+    yRailOffset: {
+        top: 30,
+    },
+});
+```
+
 # `perfect-scrollbar`
 
 Minimalistic but perfect custom scrollbar plugin
