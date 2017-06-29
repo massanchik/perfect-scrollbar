@@ -1,3 +1,5 @@
+This repository supports customizable yRailOffset top/height parameters.
+
 # `perfect-scrollbar`
 
 Minimalistic but perfect custom scrollbar plugin
